@@ -1,11 +1,18 @@
 {% extends 'shop/main.html' %}
-
+{% load static %}
 {% block content %}
-   <div class="product-detail">
-      <img class="thumbnail" src="{{ product.imageURL }}">
+   <div class="product-detail" style="align-items: center;">
+      <img class="thumbnail" src="{{ product.imageURL }}" style="height: 50%; width: 50%; align-items: center;">
       <h2>{{ product.name }}</h2>
       <p>{{ product.description }}</p>
       <p>Price: Ksh.{{ product.price|floatformat:2 }}</p>
-      <!-- Add more details as needed -->
+      <p style="height: 50%; width: 50%; align-items: center;">Baby products encompass a diverse range of items tailored for the care, comfort, and development of infants and toddlers. 
+         These include feeding essentials such as bottles, warmers, and breast pumps, as well as diapering products like diapers and 
+         diaper rash creams. Clothing and apparel like onesies, rompers, and hats are designed for the baby's comfort, while sleeping aids 
+         such as cribs, bedding, and monitors contribute to a safe and restful sleep environment. Safety and health products like car seats, 
+         baby gates, thermometers, and baby-proofing items help ensure a secure living space. Toiletries, including gentle shampoos and wipes, 
+         cater to the baby's hygiene needs, and play and developmental toys like soft plush toys, rattles, and activity gyms contribute to sensory stimulation. 
+         Transportation options such as strollers and baby carriers facilitate mobility, and feeding accessories like spoons, bowls, and high chairs support the baby's nutritional needs.
+      </p>
    </div>
 {% endblock content %}
