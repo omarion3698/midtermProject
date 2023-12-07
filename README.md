@@ -1,15 +1,15 @@
 # midtermProject
 
 ## Author
-* Omar Hussein
+ Omar Hussein
 
 ## Description
-This is a Django application for an en ecommerce website which focuses on the baby products in Kenya (mainly Nairobi).
+This is a Django application for an e-commerce website that focuses on baby products in Kenya (mainly Nairobi).
 
 ## User Story
-1. Where I can find quality items for newborn babies online.
+1. Where can users find quality items for newborn babies online?
 2. Be able to pay online upon delivery.
-3. Delivery on-time.
+3. Delivery on time.
 
 ## Set Up Instructions
 
@@ -26,14 +26,16 @@ Navigate into the folder and install requirements.
   * pip install -r requirements.txt 
 
 Install and activate Virtual.
-
-  * Install: python -m venv myworld ( for linux/MacOS )
+### For Linux/MacOS
+  * Install: python -m venv env
   
-  * Activate: source env/bin/activate ( for linux/MacOS )
+  * Activate: source env/bin/activate
 
-  * Install: py -m venv env ( for windows )
+### For Windows
 
-  * Activate: source env\Scripts\Activate ( for windows )
+  * Install: py -m venv env
+
+  * Activate: source env\Scripts\Activate
 
 Install Dependencies.
 
@@ -41,7 +43,7 @@ Install Dependencies.
 
 Setup Database.
 
-SetUp your database Username,email, password then make migrate.
+Set up your database Username, email, and password then make migrate.
 
   * python manage.py makemigrations 
 
