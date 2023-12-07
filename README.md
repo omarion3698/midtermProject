@@ -79,4 +79,4 @@ If you have any question or contributions, please email me at [omaribinbakarivic
 
 ## License
 License MIT:
-Copyright (c) 2020 Omar Hussein
+Copyright © 2020 Omar Hussein
