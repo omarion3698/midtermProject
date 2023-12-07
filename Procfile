@@ -1,0 +1,1 @@
+web: gunicorn YaziidWebsite.wsgi --log-file -

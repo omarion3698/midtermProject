@@ -1,0 +1,11 @@
+{% extends 'shop/main.html' %}
+
+{% block content %}
+   <div class="product-detail">
+      <img class="thumbnail" src="{{ product.imageURL }}">
+      <h2>{{ product.name }}</h2>
+      <p>{{ product.description }}</p>
+      <p>Price: Ksh.{{ product.price|floatformat:2 }}</p>
+      <!-- Add more details as needed -->
+   </div>
+{% endblock content %}
